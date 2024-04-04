@@ -10,7 +10,7 @@ getWeatherButton.addEventListener('click', () => {
 });
 
 function fetchWeather(city) {
-  const url = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${city}`;
+  var url = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${city}`;
 
   fetch(url)
     .then(response => {
