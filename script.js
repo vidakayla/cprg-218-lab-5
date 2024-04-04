@@ -1,8 +1,7 @@
-// Add your JavaScript code here
 const cityDropdown = document.getElementById('city-dropdown');
 const getWeatherButton = document.getElementById('get-weather');
 const weatherInfo = document.getElementById('weather-info');
-const apiKey = 'e8cf8e1b998db42f9ef9da4d19e99c59'; // Replace with your Weather Stack API key
+const apiKey = 'e8cf8e1b998db42f9ef9da4d19e99c59'; 
 
 getWeatherButton.addEventListener('click', () => {
   const selectedCity = cityDropdown.value;
