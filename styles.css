@@ -21,6 +21,12 @@ h1 {
     font-size: 32px;
     margin-bottom: 20px;
 }
+h2 {
+    text-align: center;
+    color: #9089a5;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
 #city-dropdown,
 #get-weather {
     width: 100%; /* Make dropdown and button full width */
@@ -32,17 +38,25 @@ h1 {
     cursor: pointer; /* Indicate clickable elements */
 }
 #get-weather {
-    background-color: #007bff;
+    background-color: #71adee;
     color: #fff;
     border: none;
     transition: background-color 0.2s ease-in-out;
 }
 #get-weather:hover {
-    background-color: #0069d9;
+    background-color: #5392d5;
 }
 #weather-info {
     font-size: 18px;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
+footer {
+    background-color: #a3c0d1; 
+    padding: 10px; 
+    text-align: center; 
+    font-size: 0.8rem; 
+    color: #333; 
+  }
   
